@@ -1,0 +1,146 @@
+*
+{
+	
+	margin:0
+	padding:0;
+}
+body {
+    color: #3F3D40;
+    font-family: 'Oxygen',sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    float: left;
+    list-style: none outside none;
+    position: relative;
+}
+#nav a {
+
+
+    color: #E7E5E5;
+    display: block;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+#nav .current a, #nav li:hover > a {
+    background: none repeat scroll #7788AA;
+    border-top: 1px solid #F8F8F8;
+    color: #000000;
+}
+#nav ul li:hover a, #nav li:hover li a {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+}
+#nav ul li a:hover {
+    background:none repeat scroll #335599;
+    color: #FFFFFF;
+}
+
+#nav li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+#nav ul {
+    background: none repeat scroll  #AABBCC;
+    border: 1px solid #7788AA;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+}
+#nav ul a {
+    font-weight: normal;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.698);
+}
+#nav ul ul {
+    left: 90px;
+    top: 0;
+}
+#nav ul li ul
+{
+	
+}
+#nav ul ul
+{
+	width: 138px;
+}
+#menu ul {
+    font-family: Arial,Verdana;
+    font-size: 14px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: block;
+    float: left;
+    position: relative;
+}
+#menu li ul {
+    display: none;
+}
+#menu ul li a {
+    background: none repeat scroll 0 0 #1E7C9A;
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 1px;
+    padding: 5px 15px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menu li:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu li:hover li {
+    float: none;
+    font-size: 11px;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    position: relative;
+}
+#menu ul li a {
+    background: none repeat scroll 0 0 #1E7C9A;
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 1px;
+    padding: 5px 15px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+article  .profile
+{
+	margin:80px 10px;
+	padding:10px;
+	font:oxygen;
+	width:600px;
+	font-size:14px;
+	background-color:#FFF;
+	text-align:justify;
+	line-height: 2em;
+}
+.profile p{
+	margin:10px 0;
+}
+

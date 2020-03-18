@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.over {
+    display: block;
+    z-index: 100;
+}
+.divcontain {
+    border: 1px solid black;
+    float: left;
+    height: 500px;
+    margin-left: 94px;
+    margin-right: 0;
+    margin-top: 100px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    width: 10%;
+    background: #6495ED;
+}
+.tabc {
+    margin: 100px auto;
+}
+.tabc {
+    background: none repeat scroll 0 0 #7AC5CD;
+    border: 1px solid white;
+    float: right;
+    height: 500px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+}
+ul {
+    list-style: none outside none;
+    width: 100px;
+}
+li a {
+    color: #483D8B;
+    text-decoration: none;
+}
+.etabs {
+    height: 100%;
+    left: 0;
+    padding: 0;
+    top: 0;
+    z-index: 100;
+}
+.tab {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #999999;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding-top: 1px;
+}
+.tab a:hover {
+    text-decoration: none;
+}
+.tab.active {
+    background: none repeat scroll 0 0 #9BCD9B;
+    border-color: #666666;
+    padding-top: 6px;
+    position: relative;
+    top: 1px;
+}
+.tab a.active {
+    font-weight: bold;
+}
+#tab1 {
+    background: none repeat scroll 0 0 #F0F8FF;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+#tab2 {
+    background: none repeat scroll 0 0 #F0F8FF;
+    height: 100%;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#tab3 {
+    background: none repeat scroll 0 0 #F0F8FF;
+    height: 100%;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+article .profile {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 2em;
+    margin: 80px 150px;
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    width: 600px;
+}
+.profile p {
+    margin: 10px 0;
+}
+.profile h2 {
+    line-height: 1em;
+    margin-left: 160px;
+    text-align: center;
+    width: 200px;
+}
+.profile .c {
+    margin-left: 80px;
+    white-space: pre;
+}
